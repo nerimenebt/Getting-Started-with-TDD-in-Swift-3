@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     var gameScore: Int? {
         didSet {
-            numberButton.setTitle("\(gameScore ?? 0)", for: UIControlState.normal)
+            numberButton.setTitle("\(gameScore ?? 0)", for: UIControl.State.normal)
         }
     }
     var game: Game?
